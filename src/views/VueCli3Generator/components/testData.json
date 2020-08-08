@@ -1,0 +1,125 @@
+{
+  "fileName": "index",
+  "interfaceList": [
+    {
+      "type": 6,
+      "name": "GetCollectionDateList",
+      "url": "/flow/query/getCollectionDateList",
+      "codeName": "dateList",
+      "codeFlage": true
+    },
+    {
+      "type": 0,
+      "name": "GetTeminalInventoryPage",
+      "url": "/flow/query/getTeminalInventoryPage",
+      "codeFlage": false
+    },
+    {
+      "type": 6,
+      "name": "GetBusinessProvinceList",
+      "url": "/flow/query/getBusinessProvinceList",
+      "codeFlage": true,
+      "codeName": "provinceList"
+    },
+    {
+      "type": 5,
+      "name": "DownTeminalInventory",
+      "url": "/flow/query/downTeminalInventory",
+      "codeFlage": false
+    },
+    {
+      "type": 4,
+      "name": "importData",
+      "url": "/flow/query/downTeminalInventory",
+      "codeFlage": false
+    }
+  ],
+  "codeList": [
+    {
+      "label": "sex",
+      "value":"[{label:'女',value:1}, {label:'男',value:0}]"
+    },
+    {
+      "label": "cla",
+      "value":"[{label:'一年级',value:1}, {label:'二年级',value:0}]"
+    }
+  ],
+  "searcherParamList": [
+    {
+      "type": 0,
+      "code": "dateList",
+      "name": "库存日期",
+      "value": "collectionDate",
+      "codeFlage": true
+    },
+    {
+      "type": 0,
+      "name": "省份",
+      "value": "businessProvince",
+      "codeFlage": true,
+      "code": "provinceList"
+    },
+    {
+      "type": 1,
+      "name": "产品概述",
+      "value": "productName"
+    },
+    {
+      "type": 1,
+      "name": "终端",
+      "value": "terminalName"
+    },
+    {
+      "type": 1,
+      "name": "经销商名称",
+      "value": "businessName"
+    }],
+  "tableParamList": [{
+    "type": 1,
+    "name": "挂网日期",
+    "position": "no",
+    "value": "winDate"
+  },{
+    "type": 1,
+    "name": "库存日期",
+    "position": "no",
+    "value": "collectionDate"
+  },{
+    "type": 1,
+    "name": "经销商",
+    "position": "no",
+    "value": "businessName"
+  },{
+    "type": 1,
+    "name": "省份",
+    "position": "no",
+    "value": "businessProvince"
+  },{
+    "type": 1,
+    "name": "产品概述",
+    "position": "no",
+    "value": "productName"
+  },{
+    "type": 1,
+    "name": "终端",
+    "position": "no",
+    "value": "terminalName"
+  },{
+    "type": 1,
+    "name": "数量",
+    "position": "no",
+    "value": "inventoryNum"
+  },{
+    "type": 1,
+    "name": "产品单位",
+    "position": "no",
+    "value": "productUnit"
+  },{
+    "type": 1,
+    "name": "上传时间",
+    "position": "no",
+    "value": "lastUploadDt"
+  }],
+  "detailParamList": [{}],
+  "tableCheckList": []
+}
